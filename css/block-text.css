@@ -1,0 +1,35 @@
+
+.block-text_center{
+    text-align: center;
+}
+.block-text_title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color: #000;
+}
+.block-text_title:not(:last-child){
+ margin: 0px 0px 12px 0px;
+}
+.block-text_title span{
+    color: #F1A34F;
+}
+.block-text_title_blue span{
+    color: #4285f4;
+}
+.block-text_text{
+    line-height: 138.5%;
+}
+.block-text_text_mw{
+    max-width: 620px;
+    margin: 0px auto;
+}
+.block-text_text:not(:last-child){
+    margin: 0px 0px 24px 0px;
+}
+
+@media (max-width: 767.98px) {
+    .block-text_title{
+        font-size: 34px;
+    }
+}
