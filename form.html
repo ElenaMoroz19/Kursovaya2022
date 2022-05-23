@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2/style.css">
+    <title>Обратная связь</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:regular,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700,800&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form_body">
+                <h1 class="form_title"><span>Отправка</span> данных на почту</h1>
+                <div class="form_item">
+                    <label for="formName" class="form_label">Имя*:</label>
+                    <input id="formName" type="text" name="name" class="fotm_input _req">
+                </div>
+                <div class="form_item">
+                    <label for="formEmail" class="form_label">Email*:</label>
+                    <input id="formEmail" type="text" name="email" class="fotm_input _req _email">
+                </div>
+                <div class="form_item">
+                    <div class="form_label"> Впервые у нас? </div>
+                    <div class="options">
+                        <div class="options_item">
+                            <input id="formRightVopros" checked type="radio" value="right" name="vopros" class="options_input">
+                            <label for="formRightVopros" class="options_label"><span> Да</span></label>
+                        </div>
+                        <div class="options_item">
+                            <input id="formLeftVopros" type="radio" value="left" name="vopros" class="options_input">
+                            <label for="formLefVopros" class="options_label"><span> Нет</span></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_item">
+                    <label for="formMessage" class="form_label">Сообщение:</label>
+                    <textarea name="message" id="formMessage" class="fotm_input"></textarea>
+                </div>
+                <div class="form_item">
+                    <div class="">Специалист:</div>
+                    <select name="specialist" class="select">
+                        <option value="Орниторог" selected> Хирург</option>
+                        <option value="Орниторог" selected> Дерматолог</option>
+                        <option value="Орниторог" selected> Невролог</option>
+                        <option value="Орниторог" selected> Орнитолог</option>
+                        <option value="Орниторог" selected> Кардиолог</option>
+                        <option value="Орниторог" selected> Стоматолог</option>
+                        <option value="Орниторог" selected> Терапевт</option>
+                        <option value="Орниторог" selected> Эндокринолог</option>
+                        <option value="Орниторог" selected> Ортопед-травматолог</option>
+                        <option value="Орниторог" selected> Уролог</option>
+                        <option value="Орниторог" selected> Другой</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox_input _req">
+                        <label for="formAgreement" class="checkbox_label"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a href="">Условиями</a>*</span></label>
+                    </div>
+                </div>
+                <button type="submit" class="form_button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="css2/script.js"></script>
+</body>
+</html>
