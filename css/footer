@@ -1,0 +1,21 @@
+.footer {
+    padding: 45px 0;
+}
+
+.footer_items {
+    display: flex;
+    gap: 50px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:500px) {
+    .footer{
+        padding: 30px 0;
+    }
+    .footer_items{
+        flex-direction: column;
+    }
+    
+}
