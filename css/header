@@ -1,0 +1,13 @@
+.header{ position: absolute;  width: 100%; top: 0; left: 0; z-index: 50;}
+.header_container{ display: flex; min-height: 114px;align-items: center;}
+.header_logo{position: relative; width: 200px; z-index: 5;}
+.header_menu{ flex: 1 1 auto;}
+.header_button{ position: relative; z-index: 5;flex: 0 0 252px; display: flex; 
+    justify-content: flex-end; align-items: center;}
+
+@media (max-width: 991.98px){ .header_button{flex: 0 0 170px;}}
+@media(max-width: 479.98px){.header_logo{ flex: 0 0 40px; overflow: hidden;}}
+@media(max-width: 259.98px){.header_logo{  display: none;}}
+@media (max-width: 991.98px){
+    .header_container{ min-height: 80px;}
+    .header_button{ flex: 0 0 170px;}}
