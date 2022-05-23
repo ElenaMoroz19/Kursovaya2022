@@ -1,0 +1,52 @@
+.healthcare { padding: 80px 0px 30px 0px;}
+.healthcare_block-text { margin: 0px 0px 45px 0px;}
+.healthcare_items {display: flex;}
+.healthcare_column{position: relative;padding: 0px 36px;flex: 0 1 33.333%;}
+.items-healthcare {
+    height: 100%;position: relative;
+    z-index: 2; background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18); border-radius: 8px;
+    display: flex; flex-direction: column;
+    align-items: center;text-align: center; padding: 35px 17px;}
+.items-healthcare_icon { margin: 0px 0px 30px 0px;}
+.items-healthcare_title {
+    font-weight: 700;font-size: 16px;
+    line-height: 138.5%;color: #000;margin: 0px 0px 4px 0px;}
+.items-healthcare_text { line-height: 138.5%;}
+.healthcare_column_1::before,
+.healthcare_column_1::after{
+    content: ""; position: absolute;
+    background-color: #AEC3FF; border-radius: 16px;}
+.healthcare_column_1::before{ 
+    width: 65px;height: 65px;
+    bottom: -35px;left: 15px;transform: rotate(-30deg);}
+.healthcare_column_1::after{
+    width: 97px; height: 97px;
+    top: 35px;right: -10px;
+    border-radius: 30px;transform: rotate(30deg);}
+.healthcare_column_2::after{
+    content: ""; position: absolute;
+    background-color: #AEC3FF; width: 127px; height: 127px;
+    bottom: -35px; right: -35px;border-radius: 30px;
+    transform: rotate(55deg);}
+.healthcare_column_3::after{
+    content: ""; position: absolute;
+    background-color: #AEC3FF;width: 65px;
+    height: 65px; top: -25px; right: 10px;
+    border-radius: 16px; transform: rotate(45deg);}
+
+@media (max-width:991.98px) {
+    .healthcare { padding: 30px 0px 30px 0px;}
+    .healthcare_items{ flex-direction: column;}
+    .healthcare_column:not(:last-child){margin: 0px 0px 25px 0px;}
+    .healthcare_column_2::after{
+        content: "";position: absolute;
+        background-color: #AEC3FF; width: 127px;
+        height: 127px;bottom: -70px;
+        right: 0px;border-radius: 30px;transform: rotate(55deg); }
+    .healthcare_column_3::after{
+        content: ""; position: absolute;
+        background-color: #AEC3FF; width: 65px;
+        height: 65px; top: -25px;
+        left: 10px; border-radius: 16px; transform: rotate(45deg);}
+} 
