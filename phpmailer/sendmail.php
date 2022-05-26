@@ -11,7 +11,7 @@ $mail-> setLenguage('ru', 'phpmailer/lenguage/');
 $mail->IsHTML(true);
 
 //От кого письмо
-$mail->setForm('morozova-el-s12@yandex.ru', 'GoVet');
+$mail->setForm('info@yandex.ru', 'GoVet');
 //Кому отправить
 $mail->addAddress('morozova-el-s12@yandex.ru');
 //Тема письма
