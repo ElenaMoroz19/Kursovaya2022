@@ -36,7 +36,7 @@ if(trim(!empty($_POST['email'])))
 }
 if(trim(!empty($_POST['vopros'])))
 {
-    $body.='<p><strong>Были раньше: </strong>'.$_POST['vopros'].'</p>';
+    $body.='<p><strong>Были раньше: </strong> '.$_vopros'</p>';
 }
 if(trim(!empty($_POST['specialist'])))
 {
