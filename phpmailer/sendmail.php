@@ -11,9 +11,9 @@ $mail-> setLenguage('ru', 'phpmailer/lenguage/');
 $mail->IsHTML(true);
 
 //От кого письмо
-$mail->setForm('info@fls.guru', 'GoVet');
+$mail->setForm('morozova-el-s12@yandex.ru', 'GoVet');
 //Кому отправить
-$mail->addAddress('code@fls.guru');
+$mail->addAddress('morozova-el-s12@yandex.ru');
 //Тема письма
 $mail->Subject ='Привет! Это ветеринарная клиника "GoVet"';
 
