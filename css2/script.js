@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 form.reset();
                 form.classList.remove('_sending');
             } else{
-                alert("Ошибка");
+                alert("Привет");
                 form.classList.remove('_sending');
             }
         }else{
