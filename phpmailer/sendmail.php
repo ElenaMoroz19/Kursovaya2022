@@ -11,7 +11,7 @@ $mail-> setLenguage('ru', 'phpmailer/lenguage/');
 $mail->IsHTML(true);
 
 //От кого письмо
-$mail->setForm('info@yandex.ru', 'GoVet');
+$mail->setForm('morozova-el-s12@yandex.ru', 'GoVet');
 //Кому отправить
 $mail->addAddress('morozova-el-s12@yandex.ru');
 //Тема письма
@@ -20,7 +20,7 @@ $mail->Subject ='Привет! Это ветеринарная клиника "G
 
 //Вопрос
 $vopros = "Да"
-if($_POST['vopros']=="Yes"){
+if($_POST['vopros']=="no"){
     $vopros="Нет";
 }
 //Тело письма
