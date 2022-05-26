@@ -42,9 +42,9 @@ if(trim(!empty($_POST['specialist'])))
 {
     $body.='<p><strong>Специалист: </strong>'.$_POST['specialist'].'</p>';
 }
-if(trim(!empty($_POST['massage'])))
+if(trim(!empty($_POST['message'])))
 {
-    $body.='<p><strong>Сообщение: </strong>'.$_POST['massage'].'</p>';
+    $body.='<p><strong>Сообщение: </strong>'.$_POST['message'].'</p>';
 }
 
 $mail->Body=$body;
