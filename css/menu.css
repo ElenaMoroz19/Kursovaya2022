@@ -20,7 +20,7 @@
         top: 0; left: 0%;
         width: 100%; height: 100%;
         overflow: scroll; background-color: #EBF3FA;
-        padding: 90px 15px 30px 15px; transition: all 0.3s ease 0s;; }
+        padding: 90px 15px 30px 15px; transition: all 0.3s ease 0s; }
     .menu_body:target{ display: inline;}
     .menu_body:target:before{
         content: ""; position: fixed;
