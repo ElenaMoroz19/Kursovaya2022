@@ -1,0 +1,59 @@
+.konsul { 
+    padding: 80px 0;
+}
+.konsul_container { 
+    display: flex; 
+    align-items: center; 
+}
+.konsul_media { 
+    flex: 0 1 50%; 
+}
+.konsul_content { 
+    flex: 0 1 50%; 
+}
+.media-konsul { 
+    width: 373px; 
+    padding: 56px 0px 27px 0px;
+    text-align: center; 
+    position: relative;
+}
+.media-konsul_image{ 
+    display: inline-block; 
+    width: 100%;
+    position: relative; 
+    z-index: 5;
+    border-radius: 16px; 
+}
+.media-konsul_image{ 
+    max-width: 100%; 
+    z-index: 5;
+    position: relative;
+}
+.media-konsul_item { 
+    position: absolute; 
+    background-color: #AEC3FF;
+    border-radius: 30px; 
+    width: 77px; 
+    height: 77px;
+}
+.media-konsul_item_1 { 
+    top: 0; 
+    left: 0; 
+    width: 147px; 
+    height: 147px;
+}
+.media-konsul_item_2 { 
+    bottom: 0; 
+    left: 33px;
+}
+.media-konsul_item_3 { 
+    bottom: 107px; 
+    right: 34px;
+}
+@media (max-width: 991.98px) { .konsul {  padding: 40px 0; } }
+@media (min-width: 991.98px) { .konsul_media { padding: 0px 0px 0px 47px;}}
+@media (max-width: 767.98px) {
+    .konsul { padding: 30px 0;}
+    .konsul_container {flex-direction: column-reverse; }
+    .konsul_content{ margin: 0px 0px 30px 0px; }}
+@media (max-width: 479.98px) { .media-konsul{width: 290px;}}
